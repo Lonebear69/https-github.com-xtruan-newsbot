@@ -18,14 +18,16 @@ echo "<div class=\"content\"><ul>" >> $newIndexFile
 
 while read aFile aName aUrl
 do
-	# debug text
+	# setting file paths
 	aXmlFile="$DIR/html/$aFile.xml"
 	aHtmlFile="$DIR/html/$aFile.html"
 	aNoImgHtmlFile="$DIR/html/noimg_$aFile.html"
 	
+	# setting html file paths for links in index html
 	aHtmlFileUrl="$aFile.html"
 	aNoImgHtmlFileUrl="noimg_$aFile.html"
 	
+	# debug text
 	echo "File : $aXmlFile"
 	echo "Name : $aName"
 	echo "URL : $aUrl"
