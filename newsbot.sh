@@ -21,9 +21,10 @@ do
 	# debug text
 	aXmlFile="$DIR/html/$aFile.xml"
 	aHtmlFile="$DIR/html/$aFile.html"
-	aHtmlFileUrl="$DIR/$aFile.html"
 	aNoImgHtmlFile="$DIR/html/noimg_$aFile.html"
-	aNoImgHtmlFileUrl="$DIR/noimg_$aFile.html"
+	
+	aHtmlFileUrl="$aFile.html"
+	aNoImgHtmlFileUrl="noimg_$aFile.html"
 	
 	echo "File : $aXmlFile"
 	echo "Name : $aName"
