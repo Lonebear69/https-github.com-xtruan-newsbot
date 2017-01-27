@@ -1,0 +1,10 @@
+cnn_top,CNN Top Stories,http://rss.cnn.com/rss/cnn_topstories.rss
+reuters_top,Reuters Top News,http://feeds.reuters.com/reuters/topNews
+wapo_us,Washington Post - U.S.,http://feeds.washingtonpost.com/rss/national
+wapo_world,Washington Post - World,http://feeds.washingtonpost.com/rss/world
+nyt_us,New York Times - U.S.,http://www.nytimes.com/services/xml/rss/nyt/US.xml
+nyt_world,New York Times - World,http://www.nytimes.com/services/xml/rss/nyt/World.xml
+guardian_us,The Guardian - U.S.,https://www.theguardian.com/us/rss
+guardian_world,The Guardian - World,https://www.theguardian.com/world/rss
+bbc_us,BBC - U.S. and Canada,http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml
+bbc_world,BBC - World,http://feeds.bbci.co.uk/news/world/rss.xml
