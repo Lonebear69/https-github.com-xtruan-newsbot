@@ -12,3 +12,15 @@ Note: It's highly recommended to set this up on a cloud VPS that provides a cann
 * Run this command to clone this repo into the webroot: `git clone https://github.com/xtruan/newsbot.git www`
 * Mark the newsbot script as executable: `chmod +x www/newsbot.sh`
 * Set up cron to execute the script on an interval, run `crontab -e` and set the line to something like `*/30 * * * * /var/www/newsbot.sh`. This will execute the script every 30 mins.
+
+## Feeds
+Feeds are editable to basically any public RSS feed. Just add or modify the feed_urls.csv file. The columns are as follows:
+* Column 1 - File name (can be anything as long as there are no duplicates).
+* Column 2 - Feed title which will be displayed in generated HTML.
+* Column 3 - Feed URL.
+
+## Thanks
+This project wouldn't be possible without all the work done by the developers of Full-Text RSS. Thank you.
+
+## License
+Full-Text RSS is licensed under the GNU Affero GPL v3... so Newsbot is too.
